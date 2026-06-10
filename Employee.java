@@ -13,14 +13,6 @@ public class Employee {
         this.designation=designation;
     }
 
-    public String getDesignation(){
-        return designation;
-    }
-    public String getName(){
-        return name;
-    }
-
-
     public static void main(String[] args) {
 
         List<Employee> list = new ArrayList<>();
