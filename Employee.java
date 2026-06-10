@@ -36,7 +36,7 @@ public class Employee {
         }
 
         for(String designation: map.keySet()){
-            System.out.println(designation +" : "+ map.get(designation));
+            System.out.println(designation +" -> "+ map.get(designation));
         }
 
     }
